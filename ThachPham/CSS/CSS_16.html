@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .inline{
+            background: #9dd2ff;
+            border: 2px solid black;
+            display: inline;
+        }
+        .block{
+            background: #e5ff62;
+            border: 2px solid black;
+            display: block;
+            margin-bottom: 32px;
+        }
+        .list div{
+            list-style-type: square;
+            margin-left: 32px;
+            display: list-item;
+        }
+        .container{
+            width: 60%;
+            margin: 0 auto;
+            display: table;
+        }
+        .row{
+            display: table-row;
+        }
+        .col{
+            display: table-cell;
+            border: 1px solid black;
+            background: #9f963e;
+        }
+    </style>
+</head>
+<body>
+    <div class="inline">Item1</div>
+    <div class="inline">Item2</div>
+    <span class="block">Item3</span>
+    <span class="block">Item4</span>
+
+    <div class="list">
+        <div>Muc1</div>
+        <div>Muc2</div>
+        <div>Muc3</div>
+        <div>Muc4</div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">Muc2</div>
+            <div class="col">Muc3</div>
+            <div class="col">Muc4</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">Muc2</div>
+            <div class="col">Muc3</div>
+            <div class="col">Muc4</div>
+        </div>
+    </div>
+</body>
+</html>
